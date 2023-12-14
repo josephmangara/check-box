@@ -9,12 +9,17 @@
 }
 body {
   background-color: rgb(140, 236, 228);
+  font-family: Arial, Helvetica, sans-serif;
+
 }
 
 #my-table {
-  margin-left: 15%;
-  margin-right: 15%;
-  /* border: 1px solid black; */
+  margin: 0 auto;
+  max-width: fit-content;
+  display: flex;
+  flex-direction: column;
+
+  /* border: 1px solid rgb(45, 222, 235); */
 }
 #intro {
   text-align: center;
@@ -23,17 +28,17 @@ body {
   text-align: center;
 }
 td {
-  border: 1px solid black;
-  padding: 8px;
-  margin: 4px;
+  padding: 2px;
+  margin: 2px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 #btn {
+  width: 80px;
   background-color: rgb(74, 245, 74);
   cursor: pointer;
 }
 #table-intro {
-  
+  font-style: italic;
   display: flex;
   justify-content: center;
   align-items: center;
